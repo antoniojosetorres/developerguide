@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 > Only for template developers. Read further on only if you are a template developer and familiar with the Joomla template system.
 
 J2Store is a light-weight, flexible shopping cart with tonnes of features. The most interesting feature for template developers is: It supports sub-templates. Its layouts are clean and anyone can understand by just seeing it. The code is well-commented and you can almost read it like a book.
@@ -21,19 +21,18 @@ This guide servers as a starting point for integrating J2Store with your templat
     * **[Checkout page](#checkout)**
     * **[Order history page](#myprofile)**
 
-
 <a name="download_install_j2store"></a>
-##Download and Install J2Store
+## Download and Install J2Store
 
 <a name="download_j2store"></a>
-####Download J2Store
+#### Download J2Store
 
 1. Grab the J2Store package from our website http://j2store.org/
 
 2. Become an affiliate ! You can start earning a handsome 30% for each of your referral sale.  http://j2store.org/affiliate-programme
 
 <a name="install_j2store"></a>
-####Install J2Store
+#### Install J2Store
 
 1. Use the Joomla installer to install the J2store package.
 
@@ -45,7 +44,7 @@ This guide servers as a starting point for integrating J2Store with your templat
 ![](./assets/images/j2store_install.png)
 
 <a name="j2store_configure"></a>
-####J2Store Configuration
+#### J2Store Configuration
 
 1. Once installed, you will get J2store in the Joomla component list and also separate J2store tab in Joomla backend.
 ![](./assets/images/j2store_component.png)
@@ -73,9 +72,8 @@ By default, j2store comes with two sub-templates
 
 So you can build you sub-template by copying one of these.
 
-
 <a name="j2store_layout"></a>
-####J2Store Product List View
+#### J2Store Product List View
 
 It is very easy and flexible to display the product in frontend using J2Store Layout. Please follow the procedure given below.
 
@@ -96,7 +94,7 @@ It is very easy and flexible to display the product in frontend using J2Store La
  **Item view options:** Here you can choose which are the things should be displayed in product view page.
 
 <a name="article_layout"></a>
-####Joomla Category Blog Layout
+#### Joomla Category Blog Layout
 
 This is the another method / way / layout to display your products. By using this layout, you can use the Joomla's native article options.
 
@@ -105,7 +103,7 @@ This is the another method / way / layout to display your products. By using thi
 2. Give the menu title and choose the menu type as **Articles -> Category Blog**
 
 <a name="create_product"></a>
-####Create Product
+#### Create Product
 
 1. Since J2Store uses the default Joomla articles as its products, it lets you use native content as product.
 
@@ -124,7 +122,7 @@ This is the another method / way / layout to display your products. By using thi
 ##J2Store File Location and override procedure
 
 <a name="layout_file"></a>
-####Layout file location
+#### Layout file location
 
 Go to /components/com_j2store/templates which contains two folders named **bootstrap3** and **default**(bootstrap2).
 
@@ -133,7 +131,7 @@ If you choose bootstrap3 as sub-template then you have to go with bootstrap3 fol
 If you choose default as sub-template then you have to go with default folder.
 
 <a name="product_listing"></a>
-####Frontpage product listing files
+#### Frontpage product listing files
 
 Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLATE) where you can find the files with name started with default_(for example, default_simple.php, default_images.php, etc). Those files controls all the features displaying in the category listing page.
 ![](./assets/images/template_guide_product_detail.png)
@@ -142,7 +140,7 @@ Open your sub-template folder(/components/com_j2store/templates/YOUR-SUB-TEMPLAT
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 
 <a name="product_view"></a>
-####Product view
+#### Product view
 
 Open your sub-template folder where you can find the files with name started with view_(for example, view_simple.php, view_images.php, view_options.php, view_notabs.php, etc). Those files controlled all the features displaying in the Product view page.
 ![](./assets/images/template_guide_product_view.png)
@@ -151,7 +149,7 @@ Open your sub-template folder where you can find the files with name started wit
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 
 <a name="product_filter"></a>
-####File location of filter
+#### File location of filter
 
 Following files controls filter section,
 
@@ -163,7 +161,7 @@ Following files controls filter section,
 templates/YOUR-TEMPLATE/html/com_j2store/templates/YOUR-SUB-TEMPLATE/
 
 <a name="cart"></a>
-####Cart page
+#### Cart page
 
 Cart page is controlled by the files located in the follwing path /components/com_j2store/views/carts/tmpl
 ![](./assets/images/template_guide_cart.png)
@@ -172,7 +170,7 @@ Cart page is controlled by the files located in the follwing path /components/co
 templates/YOUR-TEMPLATE/html/com_j2store/carts/
 
 <a name="checkout"></a>
-####Checkout page
+#### Checkout page
 
 Checkout is controlled by the files located in the follwing path /components/com_j2store/views/checkout/tmpl
 ![](./assets/images/template_guide_checkout.png)
@@ -181,7 +179,7 @@ Checkout is controlled by the files located in the follwing path /components/com
 templates/YOUR-TEMPLATE/html/com_j2store/checkout/
 
 <a name="myprofile"></a>
-####Order history page
+#### Order history page
 
 Order history page is controlled by the files located in the follwing path
 /components/com_j2store/views/myprofile/tmpl
