@@ -119,7 +119,7 @@ This is the another method / way / layout to display your products. By using thi
 ![](./assets/images/j2store_product_settings.png)
 
 <a name="file_override_location"></a>
-##J2Store File Location and override procedure
+## J2Store File Location and override procedure
 
 <a name="layout_file"></a>
 #### Layout file location
